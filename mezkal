@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Mezkal Salon Barbier</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #000000;
+            color: #d4af37; /* Doré */
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #003d34; /* Vert foncé */
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: #d4af37; /* Doré */
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .hero {
+            background-color: #003d34; /* Vert foncé */
+            color: #d4af37; /* Doré */
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #1c1c1c; /* Noir mat */
+        }
+        footer {
+            background-color: #000000;
+            color: #d4af37; /* Doré */
+            text-align: center;
+            padding: 10px;
+        }
+        button {
+            background-color: #003d34; /* Vert foncé */
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Le Mezkal Salon Barbier</h1>
+    </header>
+    <nav>
+        <a href="#about">À propos</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Galerie</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        <h2>Bienvenue chez Le Mezkal</h2>
+        <p>Un endroit où style et tradition mexicaine se rencontrent.</p>
+        <button onclick="window.location.href='#contact'">Nous contacter</button>
+    </div>
+    <div class="section" id="about">
+        <h2>À propos</h2>
+        <p>Le Mezkal est un salon barbier à Montréal inspiré par la culture mexicaine...</p>
+    </div>
+    <div class="section" id="services">
+        <h2>Services</h2>
+        <ul>
+            <li>Coupe de cheveux</li>
+            <li>Rasage traditionnel</li>
+            <li>Soin de barbe</li>
+        </ul>
+    </div>
+    <div class="section" id="gallery">
+        <h2>Galerie</h2>
+        <p>Des photos de nos clients satisfaits et de notre salon...</p>
+    </div>
+    <div class="section" id="contact">
+        <h2>Contact</h2>
+        <p>Adresse : 123 Rue Principale, Montréal, QC</p>
+        <p>Email : contact@lemezkal.com</p>
+        <p>Téléphone : (514) 123-4567</p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Le Mezkal Salon Barbier</p>
+    </footer>
+</body>
+</html>
